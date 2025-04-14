@@ -1,0 +1,24 @@
+site_name: My Docs
+
+theme:
+  name: material
+
+nav:
+  - Início: index.md
+  - Instalação: instalacao.md
+  - Como Usar: uso.md
+  - API: api.md
+  - Contribuindo: contribuindo.md
+
+# (opcional) Configurar deploy pro GitHub Pages
+repo_url: https://github.com/Cayoalencar/testeSite
+repo_name: GitHub
+edit_uri: ""
+
+# (opcional) idioma
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/seu-usuario
+  version:
+    provider: mike
